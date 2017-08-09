@@ -33,3 +33,81 @@ header nav span a{
   color: seashell;
   margin: 10px
 }
+
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mission{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../content/mission.jpg");
+}
+
+#mission .title{
+  width: 100%;
+  background-color: black;
+}
+
+#month{
+  width: 1000px;
+  margin-top: 50px;
+}
+
+#month .images{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#month .images figure{
+  margin: 0px 15px;
+}
+
+#month .images img{
+  width: 300px;
+  height: 200px;
+  margin-top: 15px;
+}
+
+#month .images h4{
+  margin-top: 10px;
+}
+
+#location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../content/locations.jpg");
+}
+
+#location .title{
+  margin: 15px;
+}
+
+#location .places{
+  display: flex;
+  align-items: flex-end;
+}
+
+#location .places figure{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 0px 20px;
+}
+
+#location .places figure h3, #location .places figure h4{
+  margin: auto;
+}
