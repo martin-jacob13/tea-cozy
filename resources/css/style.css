@@ -111,3 +111,19 @@ main{
 #location .places figure h3, #location .places figure h4{
   margin: auto;
 }
+
+footer{
+  margin: 0px;
+}
+
+footer .title{
+  height: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer .copyright{
+  text-align: left;
+  margin-left: 20px;
+  margin: 0px;
+}
